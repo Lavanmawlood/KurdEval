@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "category": "general",
+    "prompt": "کوردستان لە کوێیە؟ بە کورتی بۆم ڕوون بکەرەوە."
+  },
+  {
+    "id": 2,
+    "category": "instruction",
+    "prompt": "کوردی بە من فێرە چۆن چای دروست بکەم."
+  },
+  {
+    "id": 3,
+    "category": "creative",
+    "prompt": "چیرۆکێکی کورت بۆ من بنووسە بە کوردی."
+  },
+  {
+    "id": 4,
+    "category": "historical",
+    "prompt": "مێژووی کورد بۆ من بە کورتی ڕوون بکەرەوە."
+  },
+  {
+    "id": 5,
+    "category": "linguistic",
+    "prompt": "کوردی چەند زاراوەی هەیە؟"
+  },
+  {
+    "id": 6,
+    "category": "coding",
+    "prompt": "بە زمانی Python فەنکشنێک بنووسە کە ژمارەکان کۆبکاتەوە."
+  },
+  {
+    "id": 7,
+    "category": "technical",
+    "prompt": "HTML و CSS چین؟ بە سادەیی بۆم ڕوون بکەرەوە."
+  },
+  {
+    "id": 8,
+    "category": "scientific",
+    "prompt": "خۆر چیە و بۆچی گرنگە؟"
+  },
+  {
+    "id": 9,
+    "category": "scientific",
+    "prompt": "ئاو لە چەند پلەی گەرمیدا دەکوڵێت؟"
+  },
+  {
+    "id": 10,
+    "category": "self-improvement",
+    "prompt": "چۆن دەتوانم زمانەکەم باشتر بکەم؟"
+  },
+  {
+    "id": 11,
+    "category": "learning",
+    "prompt": "باشترین ڕێگا بۆ فێربوونی زمانێکی نوێ چیە؟"
+  }
+]
