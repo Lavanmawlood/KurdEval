@@ -1,0 +1,6 @@
+{
+  "title": "KurdEval — Kurdish LLM Evaluation Findings",
+  "date": "2026-09-16",
+  "summary": "Comparison of Gemini 3.8 Flash vs GPT-OSS on Kurdish",
+  "conclusion": "Current LLMs still struggle with Kurdish. Gemini 3.8 produces literary-quality output while GPT-OSS models fail with repetition and unnatural grammar."
+}
