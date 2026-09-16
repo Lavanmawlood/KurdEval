@@ -1,6 +1,29 @@
 {
   "title": "KurdEval — Kurdish LLM Evaluation Findings",
   "date": "2026-09-16",
-  "summary": "Comparison of Gemini 3.8 Flash vs GPT-OSS on Kurdish",
-  "conclusion": "Current LLMs still struggle with Kurdish. Gemini 3.8 produces literary-quality output while GPT-OSS models fail with repetition and unnatural grammar."
+  "summary": "Gemini 3.x vs GPT-OSS 120B vs GPT-OSS 20B on the same 5 Kurdish prompts",
+  "models": {
+    "gemini": {
+      "count": 5,
+      "avg_time": 36.83,
+      "avg_length": 399
+    },
+    "gpt-oss-120b": {
+      "count": 5,
+      "avg_time": 2.24,
+      "avg_length": 841
+    },
+    "gpt-oss-20b": {
+      "count": 5,
+      "avg_time": 1.31,
+      "avg_length": 670
+    }
+  },
+  "key_findings": [
+    "Gemini produces literary-quality Kurdish with proper grammar.",
+    "GPT-OSS models produce incoherent output with repetitive phrases.",
+    "GPT-OSS is ~5x faster but at the cost of quality.",
+    "Current LLMs still fail at Kurdish — a critical gap in low-resource language AI."
+  ],
+  "conclusion": "Only Gemini 3.x produces fluent Kurdish. GPT-OSS models fail with repetition and unnatural grammar. This highlights the critical need for Kurdish-specific training data."
 }

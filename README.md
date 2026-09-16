@@ -123,6 +123,69 @@ kurdish-llm-evaluator/
 
 ---
 
+
+
+---
+
+
+
+---
+
+## 🔬 Key Findings
+
+### Evaluation Setup
+
+We evaluated **3 state-of-the-art LLMs** on **the same 5 Kurdish (Sorani) prompts** across 5 categories:
+
+| Prompt ID | Category | Prompt |
+|-----------|----------|--------|
+| 1 | General | کوردستان لە کوێیە؟ |
+| 4 | Instruction | بە کوردی فێرم بکە چۆن چای ئامادە بکەم |
+| 7 | Creative | چیرۆکێکی کورت بە کوردی بۆم بنووسە |
+| 10 | Linguistic | زمانی کوردی چەند زاراوەی هەیە؟ |
+| 13 | Reasoning | بۆچی خەون دەبینین؟ |
+
+### 📊 Performance Summary
+
+| Model | Avg Response Time | Avg Length | Kurdish Quality |
+|-------|-------------------|------------|-----------------|
+| **Gemini 3.x Flash** | 36.83s | 399 chars | ⭐⭐⭐⭐ **Excellent** |
+| **GPT-OSS 120B** | 2.24s | 841 chars | ⭐⭐ Poor |
+| **GPT-OSS 20B** | 1.31s | 670 chars | ⭐ Very Poor |
+
+### 🎯 Sample Comparison (Same Prompt)
+
+**Prompt:** `چیرۆکێکی کورت بە کوردی بۆم بنووسە.`
+
+#### ✨ Gemini 3.x Flash
+> *"تەمێکی تەنک داوێنی چیاکەی داپۆشیبوو. پاییز بە هێواشی زێڕی زەردی بەسەر دارگوێزەکاندا دەڕشت و کزەبای ئێوارە، دەنگێکی کزی وەک شیوەن لەناو کۆڵانە تەسک و بەردینەکانی گوندەکەدا دەزرنگاندەوە."*
+
+**✅ Literary quality. Natural Kurdish. Proper grammar.**
+
+#### 🤖 GPT-OSS 120B
+> *"لە گوندێکی بچووکی سەروەی هەولێر، کە سەرچاوەی ئاسمان بە سەوزی دارەکان دەستەی دەستەی دەستبەجێی هەیە..."*
+
+**❌ Repetitive phrase "دەستەی دەستەی دەستبەجێی". Incoherent meaning.**
+
+#### 🤖 GPT-OSS 20B
+**❌ Severe repetition. Fails to form grammatical sentences.**
+
+### 🔍 Key Observations
+
+1. **Speed vs Quality Trade-off** — GPT-OSS models respond **~5x faster** than Gemini, but this comes at the cost of severe output degradation.
+2. **Repetition Failure** — GPT-OSS models frequently loop on meaningless words.
+3. **Vocabulary Mixing** — GPT-OSS injects Arabic/Turkish words when Kurdish equivalents exist.
+4. **Only Gemini produces literary-quality Kurdish** suitable for native readers.
+
+### 📌 Conclusion
+
+> **Current LLMs still fail at Kurdish.** Even in 2026, producing fluent, natural Kurdish remains a challenge for most models. This demonstrates a critical need for:
+> - Kurdish-specific training data
+> - Kurdish evaluation benchmarks
+> - Investment in low-resource language AI
+
+---
+
 ## 🚀 Roadmap
 
 - [ ] Add more models (Llama 3.3, Qwen 3.5, Claude)
