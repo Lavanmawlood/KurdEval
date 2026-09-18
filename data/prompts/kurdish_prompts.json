@@ -2,56 +2,631 @@
   {
     "id": 1,
     "category": "general",
+    "difficulty": "easy",
     "prompt": "کوردستان لە کوێیە؟ بە کورتی بۆم ڕوون بکەرەوە."
   },
   {
     "id": 2,
-    "category": "instruction",
-    "prompt": "کوردی بە من فێرە چۆن چای دروست بکەم."
+    "category": "general",
+    "difficulty": "easy",
+    "prompt": "پایتەختی کوردستان کوێیە؟"
   },
   {
     "id": 3,
-    "category": "creative",
-    "prompt": "چیرۆکێکی کورت بۆ من بنووسە بە کوردی."
+    "category": "general",
+    "difficulty": "easy",
+    "prompt": "زمانی فەرمی کوردستان چییە؟"
   },
   {
     "id": 4,
-    "category": "historical",
-    "prompt": "مێژووی کورد بۆ من بە کورتی ڕوون بکەرەوە."
+    "category": "general",
+    "difficulty": "medium",
+    "prompt": "کوردستان چەند پارێزگای هەیە؟ ناویان بنووسە."
   },
   {
     "id": 5,
-    "category": "linguistic",
-    "prompt": "کوردی چەند زاراوەی هەیە؟"
+    "category": "general",
+    "difficulty": "medium",
+    "prompt": "ئایا کوردستان دەوڵەتێکی سەربەخۆیە؟ بۆچی؟"
   },
   {
     "id": 6,
-    "category": "coding",
-    "prompt": "بە زمانی Python فەنکشنێک بنووسە کە ژمارەکان کۆبکاتەوە."
+    "category": "general",
+    "difficulty": "hard",
+    "prompt": "کوردستان لە نێوان چوار دەوڵەتدا دابەش کراوە. ئەم دابەشکردنە چۆن ڕوویدا؟"
   },
   {
     "id": 7,
-    "category": "technical",
-    "prompt": "HTML و CSS چین؟ بە سادەیی بۆم ڕوون بکەرەوە."
+    "category": "general",
+    "difficulty": "hard",
+    "prompt": "جیاوازی نێوان 'کوردستان' و 'هەرێمی کوردستان' چییە؟"
   },
   {
     "id": 8,
-    "category": "scientific",
-    "prompt": "خۆر چیە و بۆچی گرنگە؟"
+    "category": "instruction",
+    "difficulty": "easy",
+    "prompt": "بە کوردی فێرم بکە چۆن چایی ئامادە بکەم."
   },
   {
     "id": 9,
-    "category": "scientific",
-    "prompt": "ئاو لە چەند پلەی گەرمیدا دەکوڵێت؟"
+    "category": "instruction",
+    "difficulty": "easy",
+    "prompt": "بە کوردی فێرم بکە چۆن ئۆمێلێت دروست بکەم."
   },
   {
     "id": 10,
-    "category": "self-improvement",
-    "prompt": "چۆن دەتوانم زمانەکەم باشتر بکەم؟"
+    "category": "instruction",
+    "difficulty": "easy",
+    "prompt": "بە کوردی ڕێنماییم بکە چۆن کتێبێکی باش هەڵبژێرم."
   },
   {
     "id": 11,
+    "category": "instruction",
+    "difficulty": "medium",
+    "prompt": "بە کوردی ڕێنماییم بکە چۆن ماڵێکی بچووک بە شێوەی سەلامەت بگەرم بکەم."
+  },
+  {
+    "id": 12,
+    "category": "instruction",
+    "difficulty": "medium",
+    "prompt": "بە کوردی فێرم بکە چۆن باخێکی بچووک لە بەرەبەیانی چێنم."
+  },
+  {
+    "id": 13,
+    "category": "instruction",
+    "difficulty": "hard",
+    "prompt": "بە کوردی پلانێکی ٧-ڕۆژە بۆ فێربوونی زمانێکی نوێ بۆم دابنێ."
+  },
+  {
+    "id": 14,
+    "category": "instruction",
+    "difficulty": "hard",
+    "prompt": "بە کوردی فێرم بکە چۆن بودجەیەکی مانگانە بۆ ماڵێک دابنێم."
+  },
+  {
+    "id": 15,
+    "category": "creative",
+    "difficulty": "easy",
+    "prompt": "چیرۆکێکی کورت بە کوردی بۆم بنووسە."
+  },
+  {
+    "id": 16,
+    "category": "creative",
+    "difficulty": "easy",
+    "prompt": "شیعرێکی کورت بە کوردی بۆم بنووسە دەربارەی نەورۆز."
+  },
+  {
+    "id": 17,
+    "category": "creative",
+    "difficulty": "medium",
+    "prompt": "بە کوردی نامەیەک بۆ دایکم بنووسە دەربارەی خۆشەویستی و سوپاسکردن."
+  },
+  {
+    "id": 18,
+    "category": "creative",
+    "difficulty": "medium",
+    "prompt": "بە کوردی وەسفی باران بکە وەک شیعرێکی ئازاد."
+  },
+  {
+    "id": 19,
+    "category": "creative",
+    "difficulty": "medium",
+    "prompt": "بە کوردی چیرۆکێکی کورت بنووسە دەربارەی منداڵێک کە هاوڕێیەکی خەیاڵی هەیە."
+  },
+  {
+    "id": 20,
+    "category": "creative",
+    "difficulty": "hard",
+    "prompt": "بە کوردی چیرۆکێکی کورت بنووسە لە ڕوانگەی کەسێکەوە کە ١٠٠ ساڵ تەمەنی هەیە."
+  },
+  {
+    "id": 21,
+    "category": "creative",
+    "difficulty": "hard",
+    "prompt": "بە کوردی شیعرێکی ئازاد بنووسە دەربارەی کوردستان، بە وێنەی ئەدەبی."
+  },
+  {
+    "id": 22,
+    "category": "history",
+    "difficulty": "easy",
+    "prompt": "مێژووی کورد بە کورتی بۆم ڕوون بکەرەوە."
+  },
+  {
+    "id": 23,
+    "category": "history",
+    "difficulty": "easy",
+    "prompt": "کێ سەلاحەدینی ئەییوبی بوو؟"
+  },
+  {
+    "id": 24,
+    "category": "history",
+    "difficulty": "medium",
+    "prompt": "نەورۆز چییە و بۆچی بە گرنگییەکەوە دەگوێزرێت؟"
+  },
+  {
+    "id": 25,
+    "category": "history",
+    "difficulty": "medium",
+    "prompt": "مێژووی شاری هەولێر بە کورتی بۆم ڕوون بکەرەوە."
+  },
+  {
+    "id": 26,
+    "category": "history",
+    "difficulty": "hard",
+    "prompt": "جیاوازی نێوان شانشینی ماد و شانشینی ئاشووری چی بوو؟"
+  },
+  {
+    "id": 27,
+    "category": "history",
+    "difficulty": "hard",
+    "prompt": "کاریگەری پەیمانی سیڤەر (1920) لەسەر کوردستان چۆن بوو؟"
+  },
+  {
+    "id": 28,
+    "category": "culture",
+    "difficulty": "easy",
+    "prompt": "جلوبەرگی نەریتی کوردی چۆنە؟"
+  },
+  {
+    "id": 29,
+    "category": "culture",
+    "difficulty": "easy",
+    "prompt": "خواردنە نەریتییەکانی کوردی چین؟"
+  },
+  {
+    "id": 30,
+    "category": "culture",
+    "difficulty": "medium",
+    "prompt": "جیاوازی نێوان جلی نەریتی پیاوان و ژنان لە کوردستاندا چییە؟"
+  },
+  {
+    "id": 31,
+    "category": "culture",
+    "difficulty": "medium",
+    "prompt": "ئاهەنگ و مەراسیمەکانی نەریتی کوردی چین؟"
+  },
+  {
+    "id": 32,
+    "category": "culture",
+    "difficulty": "hard",
+    "prompt": "هونەری مۆسیقای کوردی چەند قوتابخانەی هەیە؟"
+  },
+  {
+    "id": 33,
+    "category": "linguistic",
+    "difficulty": "easy",
+    "prompt": "زمانی کوردی چەند زاراوەی هەیە؟"
+  },
+  {
+    "id": 34,
+    "category": "linguistic",
+    "difficulty": "easy",
+    "prompt": "ئەلفوبێی کوردی چەند پیتە هەیە؟"
+  },
+  {
+    "id": 35,
+    "category": "linguistic",
+    "difficulty": "medium",
+    "prompt": "جیاوازی نێوان کورمانجی و سۆرانی چییە؟"
+  },
+  {
+    "id": 36,
+    "category": "linguistic",
+    "difficulty": "medium",
+    "prompt": "چەند کەس بە کوردی قسە دەکەن؟"
+  },
+  {
+    "id": 37,
+    "category": "linguistic",
+    "difficulty": "medium",
+    "prompt": "وشەی 'ئازادی' بە کوردی چەند واتای هەیە؟"
+  },
+  {
+    "id": 38,
+    "category": "linguistic",
+    "difficulty": "hard",
+    "prompt": "ڕێزمانی کوردی سۆرانی چەند کەیس هەیە؟"
+  },
+  {
+    "id": 39,
+    "category": "linguistic",
+    "difficulty": "hard",
+    "prompt": "وشە عەرەبی و فارسییەکان چۆن کاریگەرییان لەسەر کوردی هەبووە؟"
+  },
+  {
+    "id": 40,
+    "category": "coding",
+    "difficulty": "easy",
+    "prompt": "بە زمانی پایتۆن فەنکشنێک بنووسە کە ژمارەکان کۆ بکاتەوە."
+  },
+  {
+    "id": 41,
+    "category": "coding",
+    "difficulty": "easy",
+    "prompt": "بە پایتۆن فەنکشنێک بنووسە کە لیستەکان بپاڵێوێت."
+  },
+  {
+    "id": 42,
+    "category": "coding",
+    "difficulty": "easy",
+    "prompt": "HTML و CSS چیین؟ بە سادەیی بۆم ڕوون بکەرەوە."
+  },
+  {
+    "id": 43,
+    "category": "coding",
+    "difficulty": "medium",
+    "prompt": "لۆپ و وەلۆپ لە پایتۆن چۆن کاردەکەن؟"
+  },
+  {
+    "id": 44,
+    "category": "coding",
+    "difficulty": "medium",
+    "prompt": "بە پایتۆن فەنکشنێک بنووسە کە ساڵی لەدایکبوون بگەڕێنێتەوە."
+  },
+  {
+    "id": 45,
+    "category": "coding",
+    "difficulty": "hard",
+    "prompt": "بە پایتۆن کلاسێک بنووسە بۆ لیستێکی ئەرک."
+  },
+  {
+    "id": 46,
+    "category": "coding",
+    "difficulty": "hard",
+    "prompt": "بە پایتۆن ئەلگۆریتمی Fibonacci بنووسە بە دوو ڕێگا."
+  },
+  {
+    "id": 47,
+    "category": "science",
+    "difficulty": "easy",
+    "prompt": "خۆر چییە و بۆچی گرنگە؟"
+  },
+  {
+    "id": 48,
+    "category": "science",
+    "difficulty": "easy",
+    "prompt": "ئاو لە چەند پلەی گەرمیدا دەکوڵێت؟"
+  },
+  {
+    "id": 49,
+    "category": "science",
+    "difficulty": "easy",
+    "prompt": "زەوی چەند ساڵ تەمەنی هەیە؟"
+  },
+  {
+    "id": 50,
+    "category": "science",
+    "difficulty": "medium",
+    "prompt": "چۆن ڕووناکی خۆر بۆ زەوی دەگات؟"
+  },
+  {
+    "id": 51,
+    "category": "science",
+    "difficulty": "medium",
+    "prompt": "بۆچی ئاسمان شینە؟"
+  },
+  {
+    "id": 52,
+    "category": "science",
+    "difficulty": "hard",
+    "prompt": "تیۆرییەی Big Bang ڕوون بکەرەوە."
+  },
+  {
+    "id": 53,
+    "category": "science",
+    "difficulty": "hard",
+    "prompt": "تیۆری ڕێژەیی ئەنیشتاین ڕوون بکەرەوە."
+  },
+  {
+    "id": 54,
+    "category": "reasoning",
+    "difficulty": "easy",
+    "prompt": "بۆچی خەون دەبینین؟"
+  },
+  {
+    "id": 55,
+    "category": "reasoning",
+    "difficulty": "easy",
+    "prompt": "بۆچی ئێمە پێویستمان بە خەو هەیە؟"
+  },
+  {
+    "id": 56,
+    "category": "reasoning",
+    "difficulty": "medium",
+    "prompt": "ئەگەر مرۆڤ بۆ ماوەی ساڵێک خەوت، چی ڕوودەدات؟"
+  },
+  {
+    "id": 57,
+    "category": "reasoning",
+    "difficulty": "medium",
+    "prompt": "ئەگەر ڕۆژ نەبوایە، ژیان چۆن دەبوو؟"
+  },
+  {
+    "id": 58,
+    "category": "reasoning",
+    "difficulty": "medium",
+    "prompt": "بۆچی مرۆڤەکان هەست بە تەنیایی دەکەن؟"
+  },
+  {
+    "id": 59,
+    "category": "reasoning",
+    "difficulty": "hard",
+    "prompt": "ئەگەر مرۆڤ بۆشایی ئاسمان بگەڕێت، چ کاریگەرییەک دەبێت؟"
+  },
+  {
+    "id": 60,
+    "category": "reasoning",
+    "difficulty": "hard",
+    "prompt": "ئایا مرۆڤ ئازادە یان چارەنووسی هەیە؟"
+  },
+  {
+    "id": 61,
+    "category": "ethics",
+    "difficulty": "easy",
+    "prompt": "چی شتێک مرۆڤێک دەکاتە مرۆڤێکی باش؟"
+  },
+  {
+    "id": 62,
+    "category": "ethics",
+    "difficulty": "easy",
+    "prompt": "بۆچی مرۆڤ دەبێت یارمەتی یەکتری بدات؟"
+  },
+  {
+    "id": 63,
+    "category": "ethics",
+    "difficulty": "medium",
+    "prompt": "ئایا درۆکردن هەمیشە خراپە؟"
+  },
+  {
+    "id": 64,
+    "category": "ethics",
+    "difficulty": "medium",
+    "prompt": "واتای ژیان چییە؟"
+  },
+  {
+    "id": 65,
+    "category": "ethics",
+    "difficulty": "hard",
+    "prompt": "ئایا مرۆڤ دەبێت ئازادی خۆی کەم بکاتەوە بۆ کۆمەڵگە؟"
+  },
+  {
+    "id": 66,
+    "category": "philosophy",
+    "difficulty": "easy",
+    "prompt": "چی شتێک ژیان بە واتا دەکات؟"
+  },
+  {
+    "id": 67,
+    "category": "philosophy",
+    "difficulty": "medium",
+    "prompt": "جیاوازی نێوان ڕاستی و ڕاستەقینە چییە؟"
+  },
+  {
+    "id": 68,
+    "category": "philosophy",
+    "difficulty": "hard",
+    "prompt": "فەلسەفەی سقرات چی بوو؟"
+  },
+  {
+    "id": 69,
+    "category": "practical",
+    "difficulty": "easy",
+    "prompt": "چۆن دەتوانم پارە پاشەکەوت بکەم؟"
+  },
+  {
+    "id": 70,
+    "category": "practical",
+    "difficulty": "easy",
+    "prompt": "باشترین ڕێگا بۆ گەشتکردن بە کوردستان چییە؟"
+  },
+  {
+    "id": 71,
+    "category": "practical",
+    "difficulty": "medium",
+    "prompt": "چۆن دەتوانم ماڵێک بۆ زستان بگەرم بکەم؟"
+  },
+  {
+    "id": 72,
+    "category": "practical",
+    "difficulty": "medium",
+    "prompt": "چۆن دەتوانم فێری لێخوڕینی ئۆتۆمبێل ببم؟"
+  },
+  {
+    "id": 73,
+    "category": "practical",
+    "difficulty": "hard",
+    "prompt": "چۆن پڕۆژەیەکی بچووکی بازرگانی دەستپێبکەم؟"
+  },
+  {
+    "id": 74,
+    "category": "self-improvement",
+    "difficulty": "easy",
+    "prompt": "چۆن دەتوانم زمانی کوردیم باشتر بکەم؟"
+  },
+  {
+    "id": 75,
+    "category": "self-improvement",
+    "difficulty": "easy",
+    "prompt": "چۆن دەتوانم کاتەکەم بە باشی بەکاربهێنم؟"
+  },
+  {
+    "id": 76,
+    "category": "self-improvement",
+    "difficulty": "medium",
+    "prompt": "چۆن خۆم لە ناخۆشی و خەمۆکی بپارێزم؟"
+  },
+  {
+    "id": 77,
+    "category": "self-improvement",
+    "difficulty": "medium",
+    "prompt": "چۆن بیرکردنەوەیەکی پۆزیتیڤ پەرە پێبدەم؟"
+  },
+  {
+    "id": 78,
+    "category": "self-improvement",
+    "difficulty": "hard",
+    "prompt": "چۆن پلانێکی ٥ ساڵە بۆ ژیانی خۆم دابنێم؟"
+  },
+  {
+    "id": 79,
     "category": "learning",
-    "prompt": "باشترین ڕێگا بۆ فێربوونی زمانێکی نوێ چیە؟"
+    "difficulty": "easy",
+    "prompt": "باشترین ڕێگا بۆ فێربوونی زمانێکی نوێ چییە؟"
+  },
+  {
+    "id": 80,
+    "category": "learning",
+    "difficulty": "easy",
+    "prompt": "چۆن خێراتر فێری شتێکی نوێ ببم؟"
+  },
+  {
+    "id": 81,
+    "category": "learning",
+    "difficulty": "medium",
+    "prompt": "جیاوازی نێوان فێربوونی منداڵان و گەورەسالان چییە؟"
+  },
+  {
+    "id": 82,
+    "category": "learning",
+    "difficulty": "hard",
+    "prompt": "چۆن پرۆگرامسازی بە خۆم فێربم؟ پلانی ٣ مانگە دابنێ."
+  },
+  {
+    "id": 83,
+    "category": "math",
+    "difficulty": "easy",
+    "prompt": "٥ + ٧ چەندە؟"
+  },
+  {
+    "id": 84,
+    "category": "math",
+    "difficulty": "easy",
+    "prompt": "چوارگۆشە و سێگۆشە چیین؟"
+  },
+  {
+    "id": 85,
+    "category": "math",
+    "difficulty": "medium",
+    "prompt": "ژمارەی پرۆست و ژمارەی ئاوێتە چیین؟"
+  },
+  {
+    "id": 86,
+    "category": "math",
+    "difficulty": "medium",
+    "prompt": "معادلة: 2x + 5 = 15. شی بکەرەوە."
+  },
+  {
+    "id": 87,
+    "category": "math",
+    "difficulty": "hard",
+    "prompt": "تیۆری فێرما چییە؟"
+  },
+  {
+    "id": 88,
+    "category": "technology",
+    "difficulty": "easy",
+    "prompt": "ئینتەرنێت چییە؟"
+  },
+  {
+    "id": 89,
+    "category": "technology",
+    "difficulty": "easy",
+    "prompt": "مۆبایلی زیرەک چۆن کاردەکات؟"
+  },
+  {
+    "id": 90,
+    "category": "technology",
+    "difficulty": "medium",
+    "prompt": "AI چییە؟ لە ژیانی ڕۆژانەدا چۆن بەکارمان دەهێنرێت؟"
+  },
+  {
+    "id": 91,
+    "category": "technology",
+    "difficulty": "medium",
+    "prompt": "جیاوازی HTTP و HTTPS چییە؟"
+  },
+  {
+    "id": 92,
+    "category": "technology",
+    "difficulty": "hard",
+    "prompt": "بلاکچین چۆن کاردەکات؟"
+  },
+  {
+    "id": 93,
+    "category": "health",
+    "difficulty": "easy",
+    "prompt": "چۆن دەتوانم تەندروست بم؟"
+  },
+  {
+    "id": 94,
+    "category": "health",
+    "difficulty": "easy",
+    "prompt": "خواردنی تەندروست چین؟"
+  },
+  {
+    "id": 95,
+    "category": "health",
+    "difficulty": "medium",
+    "prompt": "چۆن خەوێکی باش هەبێت؟"
+  },
+  {
+    "id": 96,
+    "category": "health",
+    "difficulty": "medium",
+    "prompt": "ڕاهێنانی جەستەیی چ کاریگەری هەیە لەسەر دەروون؟"
+  },
+  {
+    "id": 97,
+    "category": "health",
+    "difficulty": "hard",
+    "prompt": "چۆن سیستەمی بەرگری لەش بەهێز بکەم؟"
+  },
+  {
+    "id": 98,
+    "category": "translation",
+    "difficulty": "easy",
+    "prompt": "وشەی 'سوپاس' بە ئینگلیزی چییە؟"
+  },
+  {
+    "id": 99,
+    "category": "translation",
+    "difficulty": "medium",
+    "prompt": "ڕستەی 'I love learning languages' بە کوردی وەرگێڕە."
+  },
+  {
+    "id": 100,
+    "category": "translation",
+    "difficulty": "medium",
+    "prompt": "ڕستەی 'The weather is nice today' بە کوردی وەرگێڕە."
+  },
+  {
+    "id": 101,
+    "category": "translation",
+    "difficulty": "hard",
+    "prompt": "بەیتێکی شکسپیر بە کوردی وەرگێڕە."
+  },
+  {
+    "id": 102,
+    "category": "summarization",
+    "difficulty": "medium",
+    "prompt": "'یەکێتی ئەوروپا' چییە؟"
+  },
+  {
+    "id": 103,
+    "category": "summarization",
+    "difficulty": "medium",
+    "prompt": "'کۆمپیوتەری کوانتەم' چییە؟"
+  },
+  {
+    "id": 104,
+    "category": "summarization",
+    "difficulty": "hard",
+    "prompt": "پوختەیەک لەسەر ڕاپەڕینی ئەمریکا بنووسە (٧ ڕستە)."
+  },
+  {
+    "id": 105,
+    "category": "summarization",
+    "difficulty": "hard",
+    "prompt": "پوختەیەک لەسەر گەرمبوونی جیهانی بنووسە لە ١٠ خاڵدا."
   }
 ]
